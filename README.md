@@ -1,4 +1,4 @@
-# getikat.com
+# [getikat.com](https://getikat.com)
 
 The website for Ikat: the home page, how to get the app, how Ikat handles data (security and privacy), and support. Plain static
 files, with no build step, no scripts and no trackers.
