@@ -32,6 +32,13 @@ merged by Alan.
 The security and privacy text is a short contract: each sentence is something the app does. Change it in the same change as the code
 it describes.
 
+## Experiments
+
+`experiments.json` lists the experiments the app is running, for the app to read (it is not part of the pages). Each experiment has an
+`id` and variants with a `name` and a `weight`; ids and names are letters and digits only. The app picks its own variant from a
+random number kept on the phone, so adding an experiment here changes nothing about who is in it until the app next checks, and the
+site never learns who saw what. An empty list means none are running.
+
 ## License
 
 All rights reserved. This repository is public so the site can be hosted from it, and no license is granted to reuse it.
